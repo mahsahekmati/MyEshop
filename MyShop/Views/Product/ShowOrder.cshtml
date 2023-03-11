@@ -1,0 +1,39 @@
+﻿@model MyShop.DataLayer.Domain.Order
+@{
+    ViewData["Title"] = "ShowOrder";
+}
+
+<h1>فاکتور شماره : @Model.OrderId</h1>
+
+<hr/>
+<table class="table table-bordered">
+    <tr>
+        <th>کالا</th>
+        <th>تعداد</th>
+        <th>قیمت</th>
+        <th>جمع</th>
+    </tr>
+    @foreach(var item in Model.OrderDetails)
+    {
+        <tr>
+            <td>@item.Product.Title</td>
+            <td>@item.Count</td>
+            <td>@item.Price</td>
+            <td>@(item.Count*item.Price)</td>
+        </tr>
+    }
+    <tr>
+        <td colspan="3">جمع کل</td>
+        <td>@Model.OrderDetails.Sum(d=>d.Count*d.Price)</td>
+    </tr>
+    @if(!Model.IsFinaly)
+    {
+        <tr>
+            <td colspan="3"></td>
+            <td>
+                <a href="/Product/Payment/@Model.OrderId" class="btn btn-success">پرداخت</a>
+            </td>
+        </tr>
+    }
+</table>
+

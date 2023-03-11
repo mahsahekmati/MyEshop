@@ -1,0 +1,15 @@
+H:\.net\project\MyShop\MyShop.Core\bin\Debug\net6.0\MyShop.Core.deps.json
+H:\.net\project\MyShop\MyShop.Core\bin\Debug\net6.0\MyShop.Core.dll
+H:\.net\project\MyShop\MyShop.Core\bin\Debug\net6.0\MyShop.Core.pdb
+H:\.net\project\MyShop\MyShop.Core\obj\Debug\net6.0\MyShop.Core.csproj.AssemblyReference.cache
+H:\.net\project\MyShop\MyShop.Core\obj\Debug\net6.0\MyShop.Core.GeneratedMSBuildEditorConfig.editorconfig
+H:\.net\project\MyShop\MyShop.Core\obj\Debug\net6.0\MyShop.Core.AssemblyInfoInputs.cache
+H:\.net\project\MyShop\MyShop.Core\obj\Debug\net6.0\MyShop.Core.AssemblyInfo.cs
+H:\.net\project\MyShop\MyShop.Core\obj\Debug\net6.0\MyShop.Core.csproj.CoreCompileInputs.cache
+H:\.net\project\MyShop\MyShop.Core\obj\Debug\net6.0\MyShop.Core.dll
+H:\.net\project\MyShop\MyShop.Core\obj\Debug\net6.0\refint\MyShop.Core.dll
+H:\.net\project\MyShop\MyShop.Core\obj\Debug\net6.0\MyShop.Core.pdb
+H:\.net\project\MyShop\MyShop.Core\obj\Debug\net6.0\ref\MyShop.Core.dll
+H:\.net\project\MyShop\MyShop.Core\bin\Debug\net6.0\MyShop.DataLayer.dll
+H:\.net\project\MyShop\MyShop.Core\bin\Debug\net6.0\MyShop.DataLayer.pdb
+H:\.net\project\MyShop\MyShop.Core\obj\Debug\net6.0\MyShop.Core.csproj.CopyComplete

@@ -1,0 +1,11 @@
+﻿
+@model List<MyShop.DataLayer.Domain.ProductComment>
+
+    
+    @foreach (var item in Model)
+    {
+        <div class=" thumbnail " style="border: 1px solid gray;margin:3px ">
+            <h5>@item.User.UserName</h5>
+            <blockquote>@item.Comment</blockquote>
+        </div>
+    }

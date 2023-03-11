@@ -1,0 +1,34 @@
+﻿
+@{
+    ViewData["Title"] = "GetProductByGroupId";
+}
+
+<h1>محصولات گروه: @ViewBag.grouptitle</h1>
+
+<div class="row">
+    @foreach (var item in Model)
+    {
+        <partial name="_BoxProduct" model="@item" />
+    }
+</div>
+
+    @if (ViewBag.pagecount>=1)
+    {
+        <nav aria-label="Page navigation example" class="m-3">
+            <ul class="pagination">
+                @for(int i=1;i<=ViewBag.pagecount;i++)
+                {
+                    <li class="page-item @((i == ViewBag.pageid) ? "active" : "") ">
+                        <a class="page-link" href="/Group/@ViewBag.pageid/@ViewBag.grouptitle?pageid=@i">@i</a>
+                    </li>
+                }
+
+   
+            </ul>
+        </nav>
+    
+    }
+
+
+
+

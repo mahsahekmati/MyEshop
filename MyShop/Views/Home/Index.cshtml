@@ -1,0 +1,12 @@
+﻿@model IEnumerable<MyShop.DataLayer.Domain.Product>
+
+@{
+    ViewData["Title"] = "Home Page";
+}
+
+<div class="row">
+    @foreach (var item in Model)
+    {
+        <partial name="_BoxProduct" model="@item"/>
+    }
+</div>

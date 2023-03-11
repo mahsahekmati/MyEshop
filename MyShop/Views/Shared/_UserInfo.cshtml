@@ -1,0 +1,19 @@
+﻿@if (User.Identity.IsAuthenticated)
+{
+    <div class="card" style="width: 16rem;margin: 5px">
+        <div class="card-header">
+            حساب کاربری
+        </div>
+        <ul class="list-group list-group-flush">
+            <li class="list-group-item">
+                <a>پنل کاربری</a>
+            </li>
+            <li class="list-group-item">
+                <a asp-area="UserPanel" asp-controller="Home" asp-action="ChangePassword">تغییر کلمه عبور</a>
+            </li>
+            <li class="list-group-item">
+                <a asp-controller="Account" asp-action="LogOut">خروج</a>
+            </li>
+        </ul>
+    </div>
+}

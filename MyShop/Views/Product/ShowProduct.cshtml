@@ -1,0 +1,68 @@
+﻿@model MyShop.DataLayer.Domain.Product
+
+@{
+    ViewData["Title"] = "ShowProduct";
+}
+
+<div class="row">
+    <h1>@Model.Title</h1>
+
+    <img src="/ProductImages/@Model.ImageName" class="img-thumbnail" style="width: 100%" />
+
+    <p>
+        @Html.Raw(Model.Text)
+    </p>
+    <p>
+        قیمت : @Model.Price.ToString("#,0")
+    </p>
+    @foreach (string t in Model.Tags.Split(','))
+    {
+        <a href="/Search?q=@t">@t</a>
+    }
+</div>
+
+
+<div class="row">
+    <h1>نظرات کاربران</h1>
+    <div class="row">
+        @if (User.Identity.IsAuthenticated)
+        {
+            <textarea id="addcomment" rows="5" class="form-control">
+
+            </textarea>
+            <a class="btn btn-success btn-block" onclick="addComment(@Model.ProductId)">
+                ثبت نظر
+            </a>
+        }
+        else
+        {
+            <div class="alert alert-danger">
+                باید وارد سایت شوید
+            </div>
+        }
+    </div>
+    <div class="row" id="comment">
+
+    </div>
+</div>
+
+@section Scripts{
+
+    <script>
+        function showComment() {
+            $("#comment").load("/Product/ShowComment/" + @Model.ProductId)
+        }
+
+        function addComment(id) {
+            $.get("/Product/AddComment/" + id + "?comment=" + $("#addcomment").val(), function () {
+                showComment();
+                $("#addcomment").val("");
+            }
+            );
+        }
+
+        $(function () {
+            showComment();
+        })
+    </script>
+}

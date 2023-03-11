@@ -1,0 +1,12 @@
+H:\.net\project\MyShop\MyShop.Ioc\bin\Debug\net6.0\MyShop.Ioc.deps.json
+H:\.net\project\MyShop\MyShop.Ioc\bin\Debug\net6.0\MyShop.Ioc.dll
+H:\.net\project\MyShop\MyShop.Ioc\bin\Debug\net6.0\MyShop.Ioc.pdb
+H:\.net\project\MyShop\MyShop.Ioc\obj\Debug\net6.0\MyShop.Ioc.csproj.AssemblyReference.cache
+H:\.net\project\MyShop\MyShop.Ioc\obj\Debug\net6.0\MyShop.Ioc.GeneratedMSBuildEditorConfig.editorconfig
+H:\.net\project\MyShop\MyShop.Ioc\obj\Debug\net6.0\MyShop.Ioc.AssemblyInfoInputs.cache
+H:\.net\project\MyShop\MyShop.Ioc\obj\Debug\net6.0\MyShop.Ioc.AssemblyInfo.cs
+H:\.net\project\MyShop\MyShop.Ioc\obj\Debug\net6.0\MyShop.Ioc.csproj.CoreCompileInputs.cache
+H:\.net\project\MyShop\MyShop.Ioc\obj\Debug\net6.0\MyShop.Ioc.dll
+H:\.net\project\MyShop\MyShop.Ioc\obj\Debug\net6.0\refint\MyShop.Ioc.dll
+H:\.net\project\MyShop\MyShop.Ioc\obj\Debug\net6.0\MyShop.Ioc.pdb
+H:\.net\project\MyShop\MyShop.Ioc\obj\Debug\net6.0\ref\MyShop.Ioc.dll

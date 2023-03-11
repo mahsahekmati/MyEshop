@@ -1,0 +1,14 @@
+H:\.net\project\MyShop\MyShop.DataLayer\bin\Debug\net6.0\MyShop.DataLayer.deps.json
+H:\.net\project\MyShop\MyShop.DataLayer\bin\Debug\net6.0\MyShop.DataLayer.runtimeconfig.json
+H:\.net\project\MyShop\MyShop.DataLayer\bin\Debug\net6.0\MyShop.DataLayer.dll
+H:\.net\project\MyShop\MyShop.DataLayer\bin\Debug\net6.0\MyShop.DataLayer.pdb
+H:\.net\project\MyShop\MyShop.DataLayer\obj\Debug\net6.0\MyShop.DataLayer.csproj.AssemblyReference.cache
+H:\.net\project\MyShop\MyShop.DataLayer\obj\Debug\net6.0\MyShop.DataLayer.GeneratedMSBuildEditorConfig.editorconfig
+H:\.net\project\MyShop\MyShop.DataLayer\obj\Debug\net6.0\MyShop.DataLayer.AssemblyInfoInputs.cache
+H:\.net\project\MyShop\MyShop.DataLayer\obj\Debug\net6.0\MyShop.DataLayer.AssemblyInfo.cs
+H:\.net\project\MyShop\MyShop.DataLayer\obj\Debug\net6.0\MyShop.DataLayer.csproj.CoreCompileInputs.cache
+H:\.net\project\MyShop\MyShop.DataLayer\obj\Debug\net6.0\MyShop.DataLayer.dll
+H:\.net\project\MyShop\MyShop.DataLayer\obj\Debug\net6.0\refint\MyShop.DataLayer.dll
+H:\.net\project\MyShop\MyShop.DataLayer\obj\Debug\net6.0\MyShop.DataLayer.pdb
+H:\.net\project\MyShop\MyShop.DataLayer\obj\Debug\net6.0\MyShop.DataLayer.genruntimeconfig.cache
+H:\.net\project\MyShop\MyShop.DataLayer\obj\Debug\net6.0\ref\MyShop.DataLayer.dll

@@ -1,0 +1,14 @@
+﻿@model bool
+@{
+    ViewData["Title"] = "ActiveUser";
+}
+
+@if (Model)
+{
+    <div class="alert alert-success">حساب کاربری شما فعال شد</div>
+}
+else
+{
+    <div class="alert alert-danger">خطا</div>
+}
+
